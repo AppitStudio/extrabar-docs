@@ -23,29 +23,17 @@ html_static_path = ["_static"]
 # Logo
 html_logo = "_static/logo.png"
 
-# Theme customization with brand colors (Black #000000, Purple #5B5DE7)
+# Minimal customization - just brand color
 html_theme_options = {
     "light_css_variables": {
         "color-brand-primary": "#5B5DE7",
         "color-brand-content": "#5B5DE7",
-        "color-sidebar-background": "#000000",
-        "color-sidebar-search-background": "#1a1a1a",
-        "color-sidebar-text": "#ffffff",
-        "color-sidebar-link-text": "#ffffff",
-        "color-sidebar-item-background--hover": "#5B5DE7",
-        "color-sidebar-caption-text": "#9d9daa",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#5B5DE7",
+        "color-brand-primary": "#8385eb",
         "color-brand-content": "#8385eb",
-        "color-sidebar-background": "#000000",
-        "color-sidebar-search-background": "#1a1a1a",
-        "color-sidebar-text": "#ffffff",
-        "color-sidebar-link-text": "#ffffff",
-        "color-sidebar-item-background--hover": "#5B5DE7",
-        "color-sidebar-caption-text": "#9d9daa",
     },
 }
 
-# Custom CSS for additional styling
+# Custom CSS
 html_css_files = ['custom.css']
