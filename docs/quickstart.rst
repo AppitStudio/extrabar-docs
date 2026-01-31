@@ -21,11 +21,13 @@ ExtraBar is built for quick keyboard navigation.
 Open ExtraBar → **Keyboard** for more information
 
 Important Hotkeys:
-
 1. Activate ExtraBar Focus to interact with applications (``⌥ + ⌘ + F``)
-2. Switch between Inline Menu bar and Floating Bar modes (``⌥ + ⌘ + B``)
+2. Switch between Inline Menu bar and Floating Bar modes (``⌥ + ⌘ + M``)
+3. Hide and show apps/floating bar on demand (``⌥ + ⌘ + B``)
 
-Navigate with keyboard
+Hotkeys are fully customizable.
+
+Keyboard Navigation
 ----------------------
 
 Once ExtraBar Focus is on:
