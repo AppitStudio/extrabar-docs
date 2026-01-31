@@ -1,34 +1,37 @@
 Quick Start
 ===========
 
-This guide gets you productive in 5 minutes.
-
 Create your first action
 ------------------------
 
-1. Click the ExtraBar icon in your menu bar
-2. Click **Add Action** (or the + button)
-3. Choose an app from the preset list
-4. Give it a name and configure the action
-5. Click Save
+1. Open ExtraBar in your menu bar
+2. Click **Manage** on the preset you want to use (Use the default to get started)
+3. Click **+ Add** and choose "Add Apps or Folders"
+4. Choose an Application
+5. Click on the App Settings icon (⚙) 
+6. Click **+ Add** and choose an action
 
-Now click your new action to test it.
+Some actions (for example **deep links**) require further customization. See Deep Links section for guidance.
 
-Set a global hotkey
+Global hotkeys
 -------------------
 
-A hotkey lets you open ExtraBar instantly from anywhere.
+ExtraBar is built for quick keyboard navigation.
 
-1. Open ExtraBar **Settings** → **Keyboard**
-2. Set your preferred hotkey (e.g., ``⌥ + Space``)
+Open ExtraBar → **Keyboard** for more information
+
+Important Hotkeys:
+
+1. Activate ExtraBar Focus to interact with applications (``⌥ + ⌘ + F``)
+2. Switch between Inline Menu bar and Floating Bar modes (``⌥ + ⌘ + B``)
 
 Navigate with keyboard
 ----------------------
 
-Once ExtraBar is open:
+Once ExtraBar Focus is on:
 
+- **Arrow keys** — Navigate through apps and menus
 - **Number keys (1-9)** — Select actions quickly
-- **Arrow keys** — Navigate through menus
 - **Enter** — Execute the selected action
 - **Escape** — Close the menu
 
@@ -39,3 +42,5 @@ Quick actions to try
 - Launch an app
 - Open a specific Slack channel
 - Join a recurring Zoom meeting
+
+See Examples section for more.
