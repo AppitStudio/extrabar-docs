@@ -4,23 +4,31 @@ Introduction
 What is ExtraBar?
 -----------------
 
-ExtraBar is a powerful tool designed to enhance your workflow. This documentation will guide you through installation, configuration, and usage.
+ExtraBar is a macOS menu bar app that gives you quick access to apps, deep links, and custom actions.
 
-Why ExtraBar?
--------------
+Instead of opening an app and navigating through menus, you click once and go directly where you need.
 
-- **Simple**: Easy to set up and use
-- **Powerful**: Packed with features for power users
-- **Flexible**: Customize to fit your needs
+Who is it for?
+--------------
 
-Key Features
-------------
+- **Designers** — Jump to Figma files, Photoshop projects
+- **Developers** — Open VS Code projects, terminal sessions
+- **Managers** — Quick-join Zoom meetings, Slack channels
+- **Power users** — Keyboard-driven workflows, automation triggers
 
-- Feature one description
-- Feature two description
-- Feature three description
+How is it different from Bartender or Ice?
+------------------------------------------
 
-Next Steps
-----------
+Bartender and Ice help you **hide** menu bar icons.
 
-Ready to get started? Head over to the :doc:`getting-started/installation` guide.
+ExtraBar helps you **do things faster** — it's about actions, not icon management.
+
+    "Bartender removes stuff from the menu bar; ExtraBar adds to the menu bar."
+
+Key highlights
+--------------
+
+- **Zero permissions required** — Accessibility is optional
+- **Works offline** — Internet needed only for license activation
+- **Private** — No analytics, no telemetry, your config stays local
+- **Portable** — Export/import to sync across Macs

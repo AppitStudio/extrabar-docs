@@ -1,32 +1,18 @@
-Welcome to ExtraBar
-===================
+ExtraBar Docs
+=============
 
-ExtraBar is a powerful tool designed to enhance your workflow.
-
-Get started quickly with our :doc:`introduction` or jump straight to :doc:`getting-started/installation`.
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Overview
-
-   introduction
+ExtraBar is a customizable macOS menu bar for quick access to apps, deep links, and custom actions.
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started
 
-   getting-started/installation
-   getting-started/quickstart
+   introduction
+   installation
+   quickstart
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Guide
+   :caption: Reference
 
-   user-guide/features
-   user-guide/configuration
-
-.. toctree::
-   :maxdepth: 2
-   :caption: API
-
-   api/reference
+   features
