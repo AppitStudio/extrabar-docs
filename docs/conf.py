@@ -5,6 +5,9 @@ project = "ExtraBar"
 copyright = "2026, ExtraBar"
 author = "ExtraBar"
 
+# Title shown in sidebar (overrides default "project documentation")
+html_title = "ExtraBar Docs"
+
 # Extensions
 extensions = []
 
@@ -22,3 +25,6 @@ html_static_path = ["_static"]
 
 # Logo
 html_logo = "_static/logo.png"
+
+# Custom CSS for logo size
+html_css_files = ['custom.css']
