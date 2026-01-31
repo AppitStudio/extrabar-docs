@@ -1,0 +1,55 @@
+/* ExtraBar brand colors: Black #000000, Purple #5B5DE7 */
+
+/* Sidebar */
+.wy-side-nav-search {
+    background-color: #000000;
+}
+
+.wy-nav-side {
+    background-color: #000000;
+}
+
+/* Links */
+a {
+    color: #5B5DE7;
+}
+
+a:hover {
+    color: #4a4bd6;
+}
+
+/* Sidebar active item */
+.wy-menu-vertical li.current > a {
+    border-left-color: #5B5DE7;
+}
+
+.wy-menu-vertical li.toctree-l2.current > a,
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
+    background-color: #1a1a1a;
+}
+
+/* Code blocks */
+.highlight {
+    background-color: #1a1a1a;
+}
+
+/* Buttons and accents */
+.btn-neutral {
+    background-color: #5B5DE7 !important;
+    color: #ffffff !important;
+}
+
+.btn-neutral:hover {
+    background-color: #4a4bd6 !important;
+}
+
+/* Header underlines */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+/* Inline code */
+code.literal {
+    color: #5B5DE7;
+    background-color: #f5f5f7;
+}
