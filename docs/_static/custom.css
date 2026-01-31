@@ -1,5 +1,9 @@
-/* Logo size */
+/* Logo size and alignment */
 .sidebar-logo {
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.sidebar-brand {
+    text-align: left;
 }
