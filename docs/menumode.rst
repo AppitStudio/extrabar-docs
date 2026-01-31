@@ -19,7 +19,11 @@ Hotkey:
 Switch between Menu bar Modes using (``⌥ + ⌘ + M``)
 
 Settings:
+
 1. Open ExtraBar
+
 2. Go to Settings (⚙)
+
 3. Under **Menu Modes** Enable Menu Mode.
+
 4. Customize your icon's appearance and navigation style

@@ -15,6 +15,9 @@ Hotkey:
 Switch between Menu bar Modes using (``⌥ + ⌘ + M``)
 
 Settings:
+
 1. Open ExtraBar
+
 2. Go to Settings (⚙)
+
 3. Under **Display Modes** change your Menu Bar Mode.
