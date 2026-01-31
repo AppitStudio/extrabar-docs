@@ -1,7 +1,19 @@
-/* Logo size and alignment */
+/* Import DM Sans font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* Apply DM Sans throughout */
+body,
+.sidebar-brand-text,
+.sidebar-tree,
+.content {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Logo fills sidebar width */
 .sidebar-logo {
-    max-width: 150px;
-    max-height: 150px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .sidebar-brand {
