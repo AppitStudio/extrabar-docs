@@ -6,7 +6,7 @@ copyright = "2026, ExtraBar"
 author = "ExtraBar"
 
 # Title shown in sidebar (overrides default "project documentation")
-html_title = "ExtraBar<br>Docs"
+html_title = "ExtraBar Docs"
 
 # Extensions
 extensions = []
