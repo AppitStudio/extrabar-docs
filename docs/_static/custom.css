@@ -7,3 +7,8 @@
 .sidebar-brand {
     text-align: left;
 }
+
+/* Center the title text */
+.sidebar-brand-text {
+    text-align: center;
+}
