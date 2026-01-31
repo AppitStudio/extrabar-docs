@@ -1,5 +1,14 @@
 /* ExtraBar brand colors: Black #000000, Purple #5B5DE7 */
 
+/* Full-width content area */
+.wy-nav-content {
+    max-width: none;
+}
+
+.wy-nav-content-wrap {
+    background-color: #ffffff;
+}
+
 /* Sidebar */
 .wy-side-nav-search {
     background-color: #000000;

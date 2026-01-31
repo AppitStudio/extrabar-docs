@@ -1,18 +1,32 @@
-.. extrabar-docs documentation master file
+Welcome to ExtraBar
+===================
 
-Welcome to extrabar-docs
-=======================
+ExtraBar is a powerful tool designed to enhance your workflow.
 
-Hello! This is the documentation for extrabar.
-
-You can edit this file or add more ``.rst`` files in the ``docs/`` folder.
-Sphinx will pick them up automatically when you list them in the **toctree** below.
-
-Contents
---------
+Get started quickly with our :doc:`introduction` or jump straight to :doc:`getting-started/installation`.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Documentation
+   :caption: Overview
 
-   hello
+   introduction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
+
+   getting-started/installation
+   getting-started/quickstart
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Guide
+
+   user-guide/features
+   user-guide/configuration
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API
+
+   api/reference
