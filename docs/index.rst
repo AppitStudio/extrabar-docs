@@ -14,6 +14,16 @@ ExtraBar is a customizable macOS menu bar for quick access to apps, deep links, 
 
 .. toctree::
    :maxdepth: 2
+   :caption: Modes & Layouts
+
+   overview
+   presets
+   inlinemode
+   Floatingmode
+   menumode
+
+.. toctree::
+   :maxdepth: 2
    :caption: Custom Actions
 
    deeplinks
