@@ -28,6 +28,8 @@ Important Hotkeys:
 
 3. Hide and show apps/floating bar on demand (``⌥ + ⌘ + B``)
 
+4. Open the Bookmark Manager (``⇧ + ⌘ + B``)
+
 Hotkeys are fully customizable.
 
 Keyboard Navigation
