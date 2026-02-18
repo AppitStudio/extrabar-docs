@@ -48,11 +48,8 @@ Click behavior modes
 
 ExtraBar has two click behavior modes that control what happens when you click or select an item:
 
-Open Menu
-   The action menu opens showing all configured actions. This is the default.
-
-Launch App
-   The app launches directly. The menu still opens with "Open" as the first option — press ``1`` or Enter to launch quickly.
+- **Open Menu** — The action menu opens showing all configured actions. This is the default.
+- **Launch App** — The app launches directly. The menu still opens with "Open" as the first option — press ``1`` or Enter to launch quickly.
 
 Change this in ExtraBar → **Settings** (⚙) → **Keyboard**.
 
@@ -83,13 +80,8 @@ Preset hotkeys
 
 Assign keyboard shortcuts to presets for instant switching. Three trigger types are available:
 
-Single Press
-   A standard shortcut (e.g., ``⌥ + ⌘ + 1``).
-
-Key Sequence
-   Press a leader key to enter scope mode, then press an action key to switch to the preset. Configure the leader key and scope timeout (1–10 seconds) in the advanced settings.
-
-Multi-Press
-   Tap a key multiple times quickly (e.g., double-tap ``⌥``). Configure the detection window (200–1000ms) in the advanced settings.
+- **Single Press** — A standard shortcut (e.g., ``⌥ + ⌘ + 1``).
+- **Key Sequence** — Press a leader key to enter scope mode, then press an action key to switch to the preset. Configure the leader key and scope timeout (1–10 seconds) in the advanced settings.
+- **Multi-Press** — Tap a key multiple times quickly (e.g., double-tap ``⌥``). Configure the detection window (200–1000ms) in the advanced settings.
 
 Configure preset hotkeys in ExtraBar → **Settings** (⚙) → **Keyboard** → **Preset Hotkeys**.

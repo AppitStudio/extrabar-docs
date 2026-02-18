@@ -16,11 +16,8 @@ Script source
 
 You can provide a script in two ways:
 
-File
-   Point to a script file on disk. Use the **Browse** button to select the file, or type the path manually. ExtraBar detects the language from the file extension automatically.
-
-Inline
-   Write the script directly in ExtraBar's built-in editor. The editor includes syntax highlighting for all supported languages.
+- **File** — Point to a script file on disk. Use the **Browse** button to select the file, or type the path manually. ExtraBar detects the language from the file extension automatically.
+- **Inline** — Write the script directly in ExtraBar's built-in editor. The editor includes syntax highlighting for all supported languages.
 
 You can also load a file's contents into the inline editor using the **Load from File** button.
 
@@ -50,17 +47,10 @@ Shell environment
 
 Control how the shell environment is set up when your script runs. This matters when your script depends on tools installed via Homebrew or custom PATH entries.
 
-Default environment
-   No shell profile loading. The script runs with a minimal environment.
-
-zsh (load profile)
-   Loads ``.zprofile`` and ``.zlogin``. Use this when your script needs Homebrew or other PATH additions.
-
-zsh (interactive)
-   Loads ``.zshrc``. Use this when your script needs aliases or functions from your shell config.
-
-bash (load profile)
-   Loads ``.bash_profile`` or ``.profile``.
+- **Default environment** — No shell profile loading. The script runs with a minimal environment.
+- **zsh (load profile)** — Loads ``.zprofile`` and ``.zlogin``. Use this when your script needs Homebrew or other PATH additions.
+- **zsh (interactive)** — Loads ``.zshrc``. Use this when your script needs aliases or functions from your shell config.
+- **bash (load profile)** — Loads ``.bash_profile`` or ``.profile``.
 
 Output window
 -------------
