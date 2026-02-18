@@ -35,4 +35,3 @@ ExtraBar is a customizable macOS menu bar for quick access to apps, deep links, 
    keyboard
    customicons
    appearance
-   autohide

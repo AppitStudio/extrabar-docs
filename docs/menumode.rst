@@ -1,29 +1,34 @@
 Menu Mode
 =========
 
-Menu Mode collapses all your apps under a single menu bar icon.
+Menu Mode collapses all your bar items behind a single icon. Click it to open a dropdown with all your apps and actions organized in a menu.
 
-How it works
-------------
-
-One ExtraBar icon sits in your menu bar. Click it to see a dropdown with all your apps and actions organized in a menu.
-
-**Note: ExtraBar has a dedicated menu bar icon for the app's settings. Menu Mode collapses all apps under a different customizable icon.**
-
-Menu Mode can be used directly in the menu bar (Inline mode) or as a Floating Icon (Floating Mode)
+ExtraBar's settings icon stays separate — Menu Mode only affects your app items.
 
 Setting up Menu Mode
 --------------------
 
-Hotkey:
-Switch between Menu bar Modes using (``⌥ + ⌘ + M``)
+1. Open ExtraBar → **Settings** (⚙) → **Menu Mode**
+2. Toggle **Enable Menu Mode**
 
-Settings:
+You can also switch modes with ``⌥ + ⌘ + M``.
 
-1. Open ExtraBar
+Menu Mode works in both floating bar and menu bar display modes.
 
-2. Go to Settings (⚙)
+Icon customization
+------------------
 
-3. Under **Menu Modes** Enable Menu Mode.
+Choose what the menu trigger icon looks like. Three icon types are available:
 
-4. Customize your icon's appearance and navigation style
+- **SF Symbol** — Pick any SF Symbol from the built-in picker
+- **Emoji** — Use a single emoji as the icon
+- **Character** — Use a single letter or character
+
+For SF Symbols and characters, you can also set a custom color from the presets or the color picker.
+
+Navigation
+----------
+
+Menu Mode supports keyboard shortcuts for quick item selection. When enabled, press ``1``–``9`` or ``A``–``Z`` to jump to items directly. When disabled, use arrow keys for navigation.
+
+Toggle this in ExtraBar → **Settings** (⚙) → **Menu Mode** → **Navigation**.
