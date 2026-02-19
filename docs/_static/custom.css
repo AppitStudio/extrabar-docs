@@ -15,15 +15,17 @@ article {
     font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
-/* Logo fills sidebar width */
+/* Logo at half sidebar width */
 .sidebar-logo {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .sidebar-brand {
-    text-align: left;
+    text-align: center;
 }
 
 /* Center the title text */
