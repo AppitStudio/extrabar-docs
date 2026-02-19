@@ -16,7 +16,7 @@ ExtraBar is a customizable macOS menu bar for quick access to apps, deep links, 
    :maxdepth: 2
    :caption: Modes & Layouts
 
-   overview
+   organizing
    presets
    inlinemode
    floatingmode
@@ -27,7 +27,6 @@ ExtraBar is a customizable macOS menu bar for quick access to apps, deep links, 
    :caption: Features
 
    actions
-   managing
    deeplinks
    scripts
    widgets
