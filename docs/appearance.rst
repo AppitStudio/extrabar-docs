@@ -44,24 +44,6 @@ Adjust how rounded the bar corners are using the slider (0–14pt) or the quick 
 - **8pt** — More rounded
 - **Pill** — 14pt, fully rounded
 
-Bar size
---------
-
-Control the size of icons and the bar height in floating mode. Three sizes are available:
-
-- **Small** — 20pt icons, 28pt bar height. Compact and minimal.
-- **Medium** — 28pt icons, 38pt bar height. Balanced visibility.
-- **Large** — 36pt icons, 48pt bar height. Maximum visibility.
-
-Bar position
-------------
-
-Set where the floating bar appears on screen:
-
-- **Left** — Aligned to the left edge
-- **Center** — Centered on screen (default)
-- **Right** — Aligned to the right edge
-
 App icon
 --------
 

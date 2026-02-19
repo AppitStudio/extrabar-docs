@@ -49,3 +49,32 @@ ExtraBar supports three trigger types:
 - **Single Press** — A standard shortcut (e.g., ``⌥ + ⌘ + 1``)
 - **Key Sequence** — Enter a scope key, then press an action key
 - **Multi-Press** — Tap a key multiple times quickly (e.g., double-tap ``⌥``)
+
+Export and import
+-----------------
+
+Share your setup across Macs or with others using the export/import wizards. Access them from the toolbar icons in the preset management view.
+
+**Exporting:**
+
+1. Open ExtraBar → click **Manage** on any preset
+2. Click the **Export** (↑) button in the toolbar
+3. Choose what to export:
+
+   - **Presets** — Export one or more full presets with all their apps and actions
+   - **Single App Configuration** — Export just one app's actions from a preset
+
+4. Choose whether to include real values (like meeting IDs and URLs) or export as templates with placeholders
+5. Save the ``.json`` file
+
+**Importing:**
+
+1. Open ExtraBar → click **Manage** on any preset
+2. Click the **Import** (↓) button in the toolbar
+3. Choose the ``.json`` export file
+4. Select which presets or app configurations to import
+5. If a preset name already exists, choose how to handle it:
+
+   - **Keep Both** — Import with a renamed copy
+   - **Replace Existing** — Overwrite the existing preset
+   - **Skip** — Don't import the duplicate

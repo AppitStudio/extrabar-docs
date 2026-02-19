@@ -23,6 +23,25 @@ Settings:
 
 3. Under **Display Modes** change your Menu Bar Mode.
 
+Position
+--------
+
+Choose where the floating bar appears on screen. Open ExtraBar → **Settings** (⚙) → **Display Modes** → **Position**.
+
+- **Left** — Aligned to the left edge
+- **Center** — Centered on screen (default)
+- **Right** — Aligned to the right edge
+
+Multiple monitors
+-----------------
+
+When you have more than one display connected, extra options appear under **Display Modes** → **Position**:
+
+- **Show on All Screens** — Display the floating bar on every connected monitor simultaneously.
+- **Display picker** — When "Show on All Screens" is off, choose which screen the bar appears on. The primary display is labeled.
+
+These options only appear when multiple displays are detected.
+
 Hide on fullscreen
 ------------------
 
