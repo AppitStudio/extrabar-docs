@@ -154,8 +154,8 @@ Navigate perspectives using the ``omnifocus:///`` URL scheme. Use the **Deep Lin
 - **Open Projects** — ``omnifocus:///projects``
 - **Open Tags** — ``omnifocus:///tags``
 - **Show Flagged Tasks** — ``omnifocus:///flagged``
-- **Open Review Perspective** — ``omnifocus:///review`` (steps through projects due for review)
-- **Open Forecast** — ``omnifocus:///forecast`` (past, today, and upcoming items plus calendar events)
+- **Open Review Perspective** — ``omnifocus:///review``
+- **Open Forecast** — ``omnifocus:///forecast``
 
 Custom perspectives work too: ``omnifocus:///perspective/{perspectiveName}`` (encode spaces as ``%20``).
 
