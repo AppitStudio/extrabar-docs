@@ -148,7 +148,7 @@ OmniFocus
 
 *Your task system deserves a command center*
 
-Navigate perspectives and add tasks using the ``omnifocus:///`` URL scheme. Use the **Deep Link** action:
+Navigate perspectives using the ``omnifocus:///`` URL scheme. Use the **Deep Link** action:
 
 - **Open Inbox** — ``omnifocus:///inbox``
 - **Open Projects** — ``omnifocus:///projects``
