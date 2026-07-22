@@ -1,7 +1,7 @@
 Keyboard Navigation
 ====================
 
-ExtraBar is built for keyboard-driven workflows. You can navigate the bar, open menus, and execute actions entirely from the keyboard — in both floating bar and menu bar modes.
+ExtraBar is built for keyboard-driven workflows. You can navigate the bar, open menus, and execute actions entirely from the keyboard — in menu bar, notch, and floating bar positions.
 
 Activating keyboard mode
 -------------------------
@@ -24,6 +24,8 @@ Once keyboard mode is active, use number and letter keys to jump directly to an 
 - ``A`` – ``Z`` — Select items 10 through 35
 
 Selecting an item opens its action menu immediately.
+
+If you find the badges distracting, you can hide them: enable **Hide Keyboard Navigation Numbers and Letters** in **Settings** (⚙) → **Hotkeys**. The shortcuts keep working — only the labels are hidden.
 
 Navigation
 ----------
@@ -51,7 +53,7 @@ ExtraBar has two click behavior modes that control what happens when you click o
 - **Open Menu** — The action menu opens showing all configured actions. This is the default.
 - **Launch App** — The app launches directly. The menu still opens with "Open" as the first option — press ``1`` or Enter to launch quickly.
 
-Change this in ExtraBar → **Settings** (⚙) → **Keyboard**.
+Change this in ExtraBar → **Settings** (⚙) → **General** → **Click Behavior**.
 
 Menu bar mode
 --------------
@@ -70,18 +72,19 @@ Global hotkeys
 
 Open ExtraBar → **Settings** (⚙) → **Hotkeys** to customize them.
 
-- ``⌥ + ⌘ + B`` — Toggle bar visibility (customizable)
-- ``⌥ + ⌘ + F`` — Activate keyboard focus (customizable)
-- ``⌥ + ⌘ + M`` — Switch between floating bar and menu bar mode (customizable)
-- ``⇧ + ⌘ + B`` — Open Bookmark Manager
+- ``⌥ + ⌘ + B`` — Show/Hide Bar (customizable)
+- ``⌥ + ⌘ + F`` — Focus Bar for keyboard navigation (customizable)
+- ``⌥ + ⌘ + M`` — Toggle Position between bar positions (customizable)
+- **Toggle Collapse Mode** — Collapse or expand the bar (customizable)
+- ``⇧ + ⌘ + B`` — Open Bookmark Manager (Shiori)
 
 Preset hotkeys
 --------------
 
-Assign keyboard shortcuts to presets for instant switching. Three trigger types are available:
+Assign keyboard shortcuts to presets for instant switching. Preset hotkeys require at least one modifier key. Three trigger types are available:
 
 - **Single Press** — A standard shortcut (e.g., ``⌥ + ⌘ + 1``).
-- **Key Sequence** — Press a leader key to enter scope mode, then press an action key to switch to the preset. Configure the leader key and scope timeout (1–10 seconds) in the advanced settings.
+- **Sequence** — Press a leader key to enter scope mode, then press an action key to switch to the preset. Configure the leader key and scope timeout (1–10 seconds) in the advanced settings.
 - **Multi-Press** — Tap a key multiple times quickly (e.g., double-tap ``⌥``). Configure the detection window (200–1000ms) in the advanced settings.
 
-Configure preset hotkeys in ExtraBar → **Settings** (⚙) → **Keyboard** → **Preset Hotkeys**.
+Configure preset hotkeys in ExtraBar → **Settings** (⚙) → **Hotkeys** → **Preset Hotkeys**. The **Advanced** section holds the Leader Key, Scope Timeout, Multi-Press Window, and Show Scope Indicator options.

@@ -75,9 +75,19 @@ Any app with a URL scheme works — check the app's documentation for supported 
 
 For more advanced examples like triggering Keyboard Maestro macros, BetterTouchTool actions, Raycast extensions, and Apple Shortcuts, see :doc:`examples`.
 
+Not sure whether an app has a URL scheme? When configuring a deep link, use the **AI prompt** card — ExtraBar builds a research prompt for the app and opens it in the AI assistant of your choice (ChatGPT, Claude, Gemini, Grok, or Perplexity) to help you discover the app's deep link format.
+
 Paste a link
 ------------
 
 For Figma, Zoom, and Notion, you can paste a regular web URL instead of manually entering parameters. ExtraBar parses the URL and fills in the fields automatically.
 
 For example, paste ``https://www.figma.com/design/ABC123/My-Design?node-id=1-2`` and ExtraBar extracts the file key and node ID for you.
+
+Trigger ExtraBar actions from outside (``extrabar://``)
+-------------------------------------------------------
+
+ExtraBar has its own URL scheme, so other tools can trigger your configured actions. Every menu action and widget action can produce a **deep link of its own** — copy it from the action's context menu and use it anywhere that can open a URL: Raycast, Keyboard Maestro, Shortcuts, scripts, or another ExtraBar action.
+
+Links use a friendly format based on your preset, item, and action names, and are secured with a per-install token — a copied link only works on the Mac it was created on.
+

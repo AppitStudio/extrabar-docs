@@ -63,3 +63,13 @@ Not every action works with every item type:
 - **Widgets** — Actions depend on the widget type
 
 Some actions require parameters before they can run. The Action Library marks these and guides you through configuration.
+
+Menu search
+-----------
+
+Menus with many actions can be made **searchable** — enable the search toggle in the menu toolbar to get a search field at the top of the action menu.
+
+Trigger actions from outside ExtraBar
+-------------------------------------
+
+Any configured action can be copied as an ``extrabar://`` deep link from its context menu and triggered from other tools — see :doc:`deeplinks` for details.

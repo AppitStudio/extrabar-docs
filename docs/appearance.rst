@@ -5,6 +5,22 @@ Customize how the floating bar and menu bar icons look. All changes apply instan
 
 Open ExtraBar → **Settings** (⚙) → **Appearance** to access these settings.
 
+Bar size
+--------
+
+Control the size of icons and the bar height. Three sizes are available:
+
+- **Small** — 20pt icons. Compact and minimal.
+- **Medium** — 28pt icons. Balanced visibility.
+- **Large** — 36pt icons. Maximum visibility.
+
+Bar size also scales app and widget sizes and in-menu icon sizes. In native Menu Bar Mode, icons stay system-sized.
+
+Item labels
+-----------
+
+Enable **Show Labels on Hover** to display a label when you hover over an item or navigate to it with the keyboard. Useful when you're not sure what an icon represents.
+
 Background style
 -----------------
 
@@ -40,8 +56,8 @@ Corner radius
 Adjust how rounded the bar corners are using the slider (0–14pt) or the quick presets:
 
 - **Square** — 0pt, sharp corners
-- **5pt** — Default
-- **8pt** — More rounded
+- **Soft** — 5pt, the default
+- **Round** — 8pt, more rounded
 - **Pill** — 14pt, fully rounded
 
 App icon
@@ -60,7 +76,7 @@ Menu bar icon
 
 Choose the icon that appears in the macOS menu bar. Six variants are available:
 
-- Default
+- Default (adaptive — automatically tints to match a light or dark menu bar)
 - Outline Black
 - Outline White
 - Outline Purple

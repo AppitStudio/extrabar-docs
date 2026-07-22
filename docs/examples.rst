@@ -150,12 +150,15 @@ OmniFocus
 
 Navigate perspectives and add tasks using the ``omnifocus:///`` URL scheme. Use the **Deep Link** action:
 
+- **Open Inbox** — ``omnifocus:///inbox``
+- **Open Projects** — ``omnifocus:///projects``
+- **Open Tags** — ``omnifocus:///tags``
 - **Show Flagged Tasks** — ``omnifocus:///flagged``
-- **Open Weekly Review** — ``omnifocus:///review``
-- **Show Due Today** — ``omnifocus:///forecast``
+- **Open Review Perspective** — ``omnifocus:///review`` (steps through projects due for review)
+- **Open Forecast** — ``omnifocus:///forecast`` (past, today, and upcoming items plus calendar events)
 - **Quick Capture Task** — ``omnifocus:///add?name={taskName}&note={note}&flag=true``
 
-Custom perspectives work too: ``omnifocus:///perspective/{perspectiveName}``.
+Custom perspectives work too: ``omnifocus:///perspective/{perspectiveName}`` (encode spaces as ``%20``).
 
 Bear
 ----

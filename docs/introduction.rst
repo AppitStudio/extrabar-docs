@@ -25,7 +25,7 @@ ExtraBar helps you **customize actions** — it's about creating a personalized 
 
 --------------
 
-- **Different Menu Modes** - Add apps directly into your menu bar, or have them in a Floating Bar or Menu Mode collapsed under a single icon
+- **Three bar positions** — Add apps directly into your menu bar, anchor them around the display notch, or keep them in a Floating Bar — with an optional Collapse Mode that groups everything under a single icon
 - **Zero permissions required** — Accessibility is optional for better keyboard navigation
 - **Works offline** — Internet needed only for license activation
 - **Private** — No analytics, no telemetry, your config stays local

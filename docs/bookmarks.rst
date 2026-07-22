@@ -9,10 +9,10 @@ Getting started
 ---------------
 
 1. Open ExtraBar → **Settings** (⚙) → **Shiori**
-2. Sign in with your license key
+2. Connect with your Shiori account — sign in or register directly from the app. A valid ExtraBar license grants you the free **Explorer** plan.
 3. Import your bookmarks or start adding new ones
 
-After signing in, the Bookmark Manager window becomes available.
+After connecting, open the manager with the hotkey, the **Open Manager** button in Shiori settings, or **Bookmark Manager** in the ExtraBar app menu.
 
 Bookmarks
 ---------
@@ -29,6 +29,10 @@ From the Bookmark Manager you can:
 - **Pin** important bookmarks
 - **Copy** a bookmark's URL to the clipboard
 
+Quick Add defaults to the folder you currently have selected.
+
+Deleted bookmarks go to the **Recycle Bin** in the sidebar, so deletions are recoverable — restore them or empty the bin permanently.
+
 Folders
 -------
 
@@ -42,6 +46,19 @@ Tags
 ----
 
 Tags provide a second layer of organization alongside folders. A bookmark can have multiple tags. Tags have a custom name and color.
+
+Link Groups and Saved Filters
+-----------------------------
+
+The sidebar also holds:
+
+- **Link Groups** — Group related links together for quick access.
+- **Saved Filters** — Save a search/filter combination and reuse it — including from the bookmark widget on your bar.
+
+Browser routing (BETA)
+----------------------
+
+If you use **Google Chrome** with multiple profiles, you can route bookmarks to a specific Chrome profile based on their tags. Configure routing rules in **Settings** (⚙) → **Shiori**, plus a **Default Destination** (the focused app or a specific Chrome profile) for bookmarks that don't match any rule.
 
 Bookmark widget
 ---------------
@@ -77,8 +94,10 @@ Plans
 
 Shiori offers three tiers:
 
-- **Explorer** (free) — Get started with bookmarks, folders, and tags
-- **Professional** — More bookmarks, folders, tags, and saved filters
-- **Power User** — Unlimited bookmarks and advanced features
+- **Explorer** (free) — Get started with bookmarks, folders, and tags. Included with a valid ExtraBar license.
+- **Professional** — Unlimited bookmarks, saved filters, and link groups.
+- **Power User** — Everything in Professional plus upcoming AI tools. Coming soon.
 
-Manage your plan from ExtraBar → **Settings** → **Shiori**.
+Paid plans are available monthly or yearly (yearly saves 20%), and a one-time **Lifetime** option grants lifetime access to Professional features.
+
+Manage your plan from ExtraBar → **Settings** → **Shiori** — usage meters show how much of each limit (bookmarks, tags, folders, saved filters, link groups) you're using, and checkout and billing are handled in your browser.

@@ -33,13 +33,12 @@ A folder can contain:
 - **Apps** — Add apps with their own action menus
 - **Actions** — Add standalone actions
 - **Bookmarks** — Add a bookmark list filtered by folder or tag
-- **Import from Preset** — Pull items from an existing preset
 
 Manage folder items:
 
 - Drag to reorder
 - Click the gear icon to configure an item
-- Use **Select** mode to multi-select items for bulk move/copy operations
+- Use **Select** mode to multi-select items for bulk move, copy, or delete operations — items can be moved or copied between apps, folders, and widgets
 
 Apps inside a folder can have their own custom action menus, just like top-level bar items.
 

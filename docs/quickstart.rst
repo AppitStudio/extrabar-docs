@@ -1,6 +1,8 @@
 Quick Start
 ===========
 
+On first launch, ExtraBar opens an onboarding window that helps you pick your apps, style your bar, and choose a bar position. You can skip it and set everything up manually with the steps below.
+
 Create your first action
 ------------------------
 
@@ -18,13 +20,13 @@ Global hotkeys
 
 ExtraBar is built for quick keyboard navigation.
 
-Open ExtraBar → **Keyboard** for more information
+Open ExtraBar → **Settings** (⚙) → **Hotkeys** for more information
 
 Important Hotkeys:
 
 1. Activate ExtraBar Focus to interact with applications (``⌥ + ⌘ + F``)
 
-2. Switch between Inline Menu bar and Floating Bar modes (``⌥ + ⌘ + M``)
+2. Toggle between bar positions — Menu Bar, Notch, Floating Bar (``⌥ + ⌘ + M``)
 
 3. Hide and show apps/floating bar on demand (``⌥ + ⌘ + B``)
 

@@ -1,34 +1,47 @@
-Menu Mode
-=========
+Collapse Mode
+=============
 
-Menu Mode collapses all your bar items behind a single icon. Click it to open a dropdown with all your apps and actions organized in a menu.
+Collapse Mode groups all your bar items behind a single icon. Click it to open a dropdown with all your apps and actions organized in a menu.
 
-ExtraBar's settings icon stays separate — Menu Mode only affects your app items.
+.. note::
 
-Setting up Menu Mode
---------------------
+   Collapse Mode was previously called **Menu Mode**. It works the same way in every bar position — Menu Bar, Notch, and Floating Bar.
 
-1. Open ExtraBar → **Settings** (⚙) → **Menu Mode**
-2. Toggle **Enable Menu Mode**
+Collapse Mode is configured **per preset** — each preset remembers whether it's collapsed and what its menu icon looks like.
 
-You can also switch modes with ``⌥ + ⌘ + M``.
+Setting up Collapse Mode
+------------------------
 
-Menu Mode works in both floating bar and menu bar display modes.
+1. Open ExtraBar → **Settings** (⚙) → **Collapse Mode**
+2. Toggle Collapse for the preset you want
+
+You can also toggle it from the ExtraBar app menu (**Enable Collapse Mode**) or with the Toggle Collapse Mode hotkey (see :doc:`keyboard`).
 
 Icon customization
 ------------------
 
-Choose what the menu trigger icon looks like. Three icon types are available:
+Choose what the collapsed menu icon looks like for each preset. Four icon types are available:
 
+- **App Icon** — Use the ExtraBar app icon
 - **SF Symbol** — Pick any SF Symbol from the built-in picker
 - **Emoji** — Use a single emoji as the icon
-- **Character** — Use a single letter or character
+- **Text** — Use a single letter or character
 
-For SF Symbols and characters, you can also set a custom color from the presets or the color picker.
+For SF Symbols and text, you can also set a custom color from the presets or the color picker.
 
 Navigation
 ----------
 
-Menu Mode supports keyboard shortcuts for quick item selection. When enabled, press ``1``–``9`` or ``A``–``Z`` to jump to items directly. When disabled, use arrow keys for navigation.
+Choose how you navigate the collapsed menu under **Settings** (⚙) → **Collapse Mode** → **Menu Navigation**:
 
-Toggle this in ExtraBar → **Settings** (⚙) → **Menu Mode** → **Navigation**.
+- **Quick Select** — Press ``1``–``9`` or ``A``–``Z`` to jump to items directly
+- **Arrow Keys** — Navigate with the arrow keys
+
+Merging the app menu
+--------------------
+
+Under **Settings** (⚙) → **General** → **App Menu**, you can choose how ExtraBar's own menu icon behaves:
+
+- **Show separately** — The ExtraBar app menu stays as its own icon (default)
+- **Hide** — Hides the app menu icon; Settings stay reachable by right-clicking the bar or any icon
+- **Merge into bar** — Combines the app menu and your bar items into one icon. When merged, Collapse Mode is locked on for the active preset.

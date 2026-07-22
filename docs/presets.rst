@@ -35,20 +35,22 @@ Right-click any preset or use the context menu for quick actions:
 - **Manage** — Edit the apps and actions inside the preset
 - **Rename** — Double-click the preset name or use the context menu
 - **Duplicate** — Create a copy with a new name
-- **Delete** — Remove the preset (you must always keep at least one)
+- **Delete** — Remove the preset. You must always keep at least one; the default preset can also be deleted as long as another preset exists.
 
 Use **Edit Mode** to drag and reorder presets.
 
 Preset hotkeys
 --------------
 
-You can assign a keyboard shortcut to any preset for instant switching. Open ExtraBar → **Keyboard** to configure preset hotkeys.
+You can assign a keyboard shortcut to any preset for instant switching. Open ExtraBar → **Settings** (⚙) → **Hotkeys** → **Preset Hotkeys** to configure them.
 
 ExtraBar supports three trigger types:
 
 - **Single Press** — A standard shortcut (e.g., ``⌥ + ⌘ + 1``)
-- **Key Sequence** — Enter a scope key, then press an action key
+- **Sequence** — Press a leader key, then press an action key
 - **Multi-Press** — Tap a key multiple times quickly (e.g., double-tap ``⌥``)
+
+See :doc:`keyboard` for details.
 
 Export and import
 -----------------

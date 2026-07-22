@@ -36,16 +36,27 @@ Switch to the **From URL** tab, paste an image URL, and click **Download**. The 
 
 Icons can also be imported directly from an installed application's bundle.
 
+**SF Symbols**
+
+You can import any SF Symbol as an icon from the built-in symbol picker.
+
 Icon library
 ------------
 
-All imported icons are saved to your library and can be reused across any item in any preset. The library supports:
+All imported icons are saved to your library and can be reused across any item in any preset. You can browse and manage your library in ExtraBar → **Settings** (⚙) → **Icon Library**, which shows **Your Library** and an **Import** section for image files and SF Symbols.
+
+The library supports:
 
 - **Search** — Find icons by name or source
 - **Rename** — Give icons a custom display name
 - **Delete** — Right-click an icon to remove it from the library
 
 Icons associated with a specific app appear first when you open the picker for that app.
+
+Icon tint
+---------
+
+Besides replacing an icon, you can apply a **tint color** to any item's icon. Pick from the preset color palette when editing the item.
 
 Tips
 ----
